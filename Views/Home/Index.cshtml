@@ -1,8 +1,18 @@
 ﻿@{
-    ViewData["Title"] = "Index";
+    var discos = ViewBag.Discos as Dictionary<int, Disco>;
 }
-
-<div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
-</div>
+<body>
+ <main>
+    <h1>MusicStore</h1>
+    <p>Bienvenidos al sitio web de Dobro y Lior</p>
+   <section>
+    @foreach(var disco in discos.Values)
+    {
+      <div>
+        <img src="/img/@disco.Foto" alt="Foto" width="300" height="auto">
+        <h2>@disco.Nombre</h2>
+      </div>
+    }
+   </section>
+ </main>
+</body>

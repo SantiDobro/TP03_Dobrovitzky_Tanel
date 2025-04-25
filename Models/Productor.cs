@@ -1,8 +1,8 @@
-class Productor
+public class Productor
 {
-    string produccion;
+    public string Produccion { get; private set; }
     public Productor(string produccion)
     {
-        this.produccion = produccion;
+        Produccion = produccion;
     }
 }

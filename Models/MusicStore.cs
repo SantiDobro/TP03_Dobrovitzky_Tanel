@@ -1,133 +1,67 @@
-class MusicStore
+public class MusicStore
 {
-    Dictionary<int, Disco> discos = InicializarDiscos();
-
-    /*public Disco(string nombre, List<Artista> artista, Productor productor, string genero, List<Tema> temas, string foto)
-     {
-        this.nombre = nombre;
-        this.artista = artista;
-        this.productor = productor;
-        this.genero = genero;
-        this.temas = temas;
-        this.foto = foto;
-     }*/
-    private static Dictionary<int, Disco> InicializarDiscos()
+    public Dictionary<int, Disco> Discos { get; private set; } = InicializarDiscos();
+    public static Dictionary<int, Disco> InicializarDiscos()
     {
+        // Disco 1
         Dictionary<int, Disco> discos = new Dictionary<int, Disco>();
-        string nombre = "DeBÍ TiRAR MáS FOToS";
-        List<Artista> artistas = new List<Artista>(); artistas.Add(new("Bad Bunny"));
-        Productor productor = new Productor("Rimas Entertainment");
-        List<Tema> temas = new List<Tema>();
-        agregarTemas(temas, "NUEVAYoL");
-        agregarTemas(temas, "VOY A LLeVARTE PA PR");
-        agregarTemas(temas, "BAILE INoLVIDABLE");
-        agregarTemas(temas, "PERFuMITO NUEVO");
-        agregarTemas(temas, "WELTiTA");
-        agregarTemas(temas, "VeLDÁ");
-        agregarTemas(temas, "EL CLuB");
-        agregarTemas(temas, "KETU TeCRÉ");
-        agregarTemas(temas, "BOKeTE");
-        agregarTemas(temas, "KLOuFRENS");
-        agregarTemas(temas, "TURiSTA");
-        agregarTemas(temas, "CAFé CON RON");
-        agregarTemas(temas, "PIT0RRO DE COCO");
-        agregarTemas(temas, "LO QUE LE PASÓ A HAWAii");
-        agregarTemas(temas, "EoO");
-        agregarTemas(temas, "DtMF");
-        agregarTemas(temas, "LA MuDANZA");
-        string genero = "Reguetón, Plena";
-        string foto = "DtMF.jpg";
-        Disco disco = new Disco(nombre, artistas, productor, temas, genero, foto);
-        discos.Add(0, disco);
-        // Disco 2
-discos.Add(1, new Disco(
-    "Noches en Condado",
-    new List<Artista> { new("Rauw Alejandro") },
-    new Productor("Sony Music Latin"),
-    new List<Tema> {
-        new("Intro"), new("Puesta Pa' Mí"), new("Luz de Noche"), new("Cielo Abierto"),
-        new("Bellaqueo Eterno"), new("Código 787"), new("Frikitona 3000"), new("Más Flow"),
-        new("Noche Lluviosa"), new("La Última Vez")
-    },
-    "Electro Urbano, R&B", "rauw.jpg"
-));
+        discos.Add(0, new Disco("DeBÍ TiRAR MáS FOToS",
+        new List<Artista> { new("Bad Bunny") }, new Productor("Rimas Entertainment"), new List<Tema>{
+            new("NUEVAYoL"), new("VOY A LLeVARTE PA PR"), new("BAILE INoLVIDABLE"), new("PERFuMITO NUEVO"),
+        new("WELTiTA"), new("VeLDÁ"), new("EL CLuB"), new("KETU TeCRÉ"),
+        new("BOKeTE"), new("KLOuFRENS"), new("TURiSTA"), new("CAFé CON RON"), new("PIT0RRO DE COCO"), new("LO QUE LE PASÓ A HAWAii"),
+        new("EoO"), new("DtMF"), new("LA MuDANZA")}, "Reguetón, Plena", "DtMF.jpg"));
 
-// Disco 3
-discos.Add(2, new Disco(
-    "Tropikal 3000",
-    new List<Artista> { new("Feid") },
-    new Productor("Universal Music"),
-    new List<Tema> {
-        new("VACilón"), new("Tu Calor"), new("Luz Verde"), new("1000 Likes"),
-        new("Estás Aquí"), new("Parche de Oro"), new("Mambo Slow"), new("Fiesta sin Fin")
-    },
-    "Reguetón, Dancehall", "feid_tropikal.jpg"
-));
+        // Disco 2 - A partir de acá: ChatGPT
+        discos.Add(1, new Disco("Colores",
+            new List<Artista> { new("J Balvin") }, new Productor("Universal Music Latin"), new List<Tema>{
+        new("Amarillo"), new("Morado"), new("Rojo"), new("Azul"),
+        new("Verde"), new("Rosa"), new("Gris"), new("Azul Pastel"),
+        new("Blanco"), new("Negro"), new("Rojo Fuego"), new("Girasol")}, "Reguetón, Trap", "Colores.jpg"));
 
-// Disco 4
-discos.Add(3, new Disco(
-    "Perreo Profundo",
-    new List<Artista> { new("Jowell & Randy") },
-    new Productor("White Lion Records"),
-    new List<Tema> {
-        new("Intro Salvaje"), new("Perreo Del Futuro"), new("Gata Turbo"), new("Nadie Sabe"),
-        new("Bajo Tierra"), new("Tóxica Remix"), new("Flow Antiguo"), new("Outro")
-    },
-    "Perreo, Reguetón", "perreo_profundo.jpg"
-));
+        // Disco 3
+        discos.Add(2, new Disco("KG0516",
+            new List<Artista> { new("Karol G") }, new Productor("Interscope Records"), new List<Tema>{
+        new("Bichota"), new("El Makinón"), new("La Tóxica"), new("Pineapple"),
+        new("Mi Ex Tenía Razón"), new("Ay Dios Mío"), new("Sejodioto"), new("X"),
+        new("Que Me Vas a Dar"), new("200 Copas"), new("Verdad"), new("El Barco")}, "Reguetón, Trap", "KG0516.jpg"));
 
-// Disco 5
-discos.Add(4, new Disco(
-    "Latidos de la Calle",
-    new List<Artista> { new("Residente") },
-    new Productor("El Abismo"),
-    new List<Tema> {
-        new("Intro - Palabras"), new("Bajo Presión"), new("Callejero"), new("La Voz"),
-        new("Crónicas de Barrio"), new("Mentiras del Sistema"), new("Despertar"), new("Outro")
-    },
-    "Hip-Hop, Protesta", "latidos.jpg"
-));
+        // Disco 4
+        discos.Add(3, new Disco("Afrodisíaco",
+            new List<Artista> { new("Rauw Alejandro") }, new Productor("Sony Music Latin"), new List<Tema>{
+        new("Dile a Él"), new("Fantasías"), new("Lo Siento"), new("Sexo Fácil"),
+        new("Una Noche Más"), new("Nadie Como Tú"), new("Cuentos de la Calle"), new("Un Día de Enero"),
+        new("Tattoo Remix"), new("Aventura"), new("Me Dejas Ser")}, "Reguetón, R&B", "Afrodisiaco.jpg"));
 
-// Disco 6
-discos.Add(5, new Disco(
-    "Estrella Fugaz",
-    new List<Artista> { new("Young Miko") },
-    new Productor("The Wave Records"),
-    new List<Tema> {
-        new("Space Trip"), new("Amor Lunar"), new("Brillar Contigo"), new("404 Emocional"),
-        new("Nube9"), new("Eclipse Total"), new("Final de Verano")
-    },
-    "Trap Pop, Experimental", "estrella.jpg"
-));
+        // Disco 5
+        discos.Add(4, new Disco("Real hasta la Muerte",
+            new List<Artista> { new("Anuel AA") }, new Productor("Real G4 Life Music"), new List<Tema>{
+        new("Intocable"), new("Bebe"), new("Nadie Sabe"), new("Amor Genuino"),
+        new("Ven y Hazlo Tú"), new("La Ultima Vez"), new("Me Contagié"), new("Sigo Gozando"),
+        new("Real hasta la Muerte"), new("Reloj"), new("Guerrero")}, "Trap, Reguetón", "RealHastaLaMuerte.jpg"));
 
-// Disco 7
-discos.Add(6, new Disco(
-    "Sueños de Arena",
-    new List<Artista> { new("Tainy") },
-    new Productor("NEON16"),
-    new List<Tema> {
-        new("Desierto de Noche"), new("Oasis Perdido"), new("Arena y Viento"), new("Eco del Mar"),
-        new("Solitario"), new("Visiones"), new("Reflejo"), new("Náufrago")
-    },
-    "Ambient Trap, Electrónica", "arena.jpg"
-));
+        // Disco 6
+        discos.Add(5, new Disco("Fénix",
+            new List<Artista> { new("Nicky Jam") }, new Productor("Sony Music Latin"), new List<Tema>{
+        new("Te Robaré"), new("El Amante"), new("No Me Acuerdo"), new("Fénix"),
+        new("La Fiesta"), new("Me Pasé"), new("Hasta el Amanecer"), new("Tu Amor"),
+        new("Solo Yo"), new("Muero Por Ti"), new("Otra Copa")}, "Reguetón, Balada", "Fenix.jpg"));
 
-// Disco 8
-discos.Add(7, new Disco(
-    "Bajo el Sol de PR",
-    new List<Artista> { new("Myke Towers") },
-    new Productor("Warner Music"),
-    new List<Tema> {
-        new("Calor Urbano"), new("Desde La Esquina"), new("Sol en la Frente"), new("Playa y Problemas"),
-        new("Camino al Barrio"), new("Ritmo del Asfalto"), new("Humo y Recuerdos")
-    },
-    "Rap, Trap Latino", "bajoelsol.jpg"
-));
+        // Disco 7
+        discos.Add(6, new Disco("Nibiru",
+            new List<Artista> { new("Ozuna") }, new Productor("Sony Music Latin"), new List<Tema>{
+        new("Caramelo"), new("Noche de Sexo"), new("Baila Baila"), new("Como Antes"),
+        new("Difícil de Creer"), new("Solitaria"), new("Ya No Me Acuerdo"), new("Te Bote"),
+        new("Imposible"), new("Lo Que Me Gusta"), new("Secreto"), new("Contigo Siempre")}, "Reguetón, Dancehall", "Nibiru.jpg"));
 
-    }
-
-    public static void agregarTemas(List<Tema> temas, string nombre)
-    {
-        temas.Add(new(nombre));
+        // Disco 8
+        discos.Add(7, new Disco("YHLQMDLG",
+    new List<Artista> { new("Bad Bunny") }, new Productor("Rimas Entertainment"), new List<Tema>{
+        new("Si Veo a Tu Mamá"), new("La Canción"), new("Vete"), new("Pa' Romperla"), 
+        new("Safaera"), new("Bye Me Fui"), new("Yo Perreo Sola"), new("Otra Noche en Miami"),
+        new("Estamos Bien"), new("Qué Malo"), new("Puesto Pa' Guerrillar"), new("Soltera Remix"),
+        new("Te Mudaste"), new("Hablamos Mañana")}, "Reguetón, Trap, Latin Hip-Hop", "YHLQMDLG.jpg"));
+        
+        return discos;
     }
 }

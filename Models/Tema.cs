@@ -1,8 +1,8 @@
-class Tema
+public class Tema
 {
-    string tema;
-    public Tema(string tema)
+    public string Nombre { get; private set; }
+    public Tema(string nombre)
     {
-        this.tema = tema;
+        Nombre = nombre;
     }
 }

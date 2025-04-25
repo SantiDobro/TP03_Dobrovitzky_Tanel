@@ -1,8 +1,8 @@
-class Artista
+public class Artista
 {
-    string nombre;
+    public string Nombre {get; private set;}
     public Artista(string nombre)
     {
-        this.nombre = nombre;
+        Nombre = nombre;
     }
 }
