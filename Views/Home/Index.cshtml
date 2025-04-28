@@ -6,11 +6,13 @@
     <h1>MusicStore</h1>
     <p>Bienvenidos al sitio web de Dobro y Lior</p>
    <section>
-    @foreach(var disco in discos.Values)
+    @foreach(var disco in discos.Value)
     {
       <div>
+        <a href= "@Url.Action("SelectDisco", "Home", new { id = "@ViewBag.Disco.ID" })">
         <img src="/img/@disco.Foto" alt="Foto" width="300" height="auto">
         <h2>@disco.Nombre</h2>
+        </a>
       </div>
     }
    </section>

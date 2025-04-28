@@ -15,8 +15,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Dictionary<int, Disco> discos = MusicStore.InicializarDiscos();
+        List<Disco> discos = MusicStore.InicializarDiscos();
         ViewBag.discos = discos;
         return View();
+    }
+    public IActionResult SelectDisco(int id)
+    {
+        List<Disco> discos = MusicStore.InicializarDiscos();
+        ViewBag.disco = MusicStore.SelectDisco(id);
+        return View("MostrarDisco");
     }
 }

@@ -9,8 +9,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Afrodisiaco.jpg",
+      "PackagePath": "staticwebassets\\img\\Afrodisiaco.jpg"
+    },
+    {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Colores.jpg",
+      "PackagePath": "staticwebassets\\img\\Colores.jpg"
+    },
+    {
       "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\DtMF.jpg",
       "PackagePath": "staticwebassets\\img\\DtMF.jpg"
+    },
+    {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Fenix.jpg",
+      "PackagePath": "staticwebassets\\img\\Fenix.jpg"
+    },
+    {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\KG0516.jpg",
+      "PackagePath": "staticwebassets\\img\\KG0516.jpg"
+    },
+    {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Nibiru.jpg",
+      "PackagePath": "staticwebassets\\img\\Nibiru.jpg"
+    },
+    {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\RealHastaLaMuerte.jpg",
+      "PackagePath": "staticwebassets\\img\\RealHastaLaMuerte.jpg"
+    },
+    {
+      "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\YHLQMDLG.jpg",
+      "PackagePath": "staticwebassets\\img\\YHLQMDLG.jpg"
     },
     {
       "Id": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\js\\site.js",
