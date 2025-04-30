@@ -1,5 +1,14 @@
-@{
-    var discos = ViewBag.Discos as Dictionary<int, Disco>;
-}
+<img src="/img/@ViewBag.disco.Foto" alt="Foto" width="300" height="auto">
+<h1>
+@ViewBag.disco.Artista.Nombre
+</h1>
 
-<img src="/img/@ViewBag.SelectDisco.disco.Foto" alt="Foto" width="300" height="auto">
+@foreach(Tema tema in ViewBag.disco.Temas)
+{
+<li>
+ @tema.Nombre
+</li>
+}
+<h4>
+@ViewBag.disco.Productor.Produccion
+<h4>

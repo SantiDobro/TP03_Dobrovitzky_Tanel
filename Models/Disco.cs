@@ -2,12 +2,12 @@ public class Disco
 {
     public int ID {get; private set;}
     public string Nombre { get; private set; }
-    public List<Artista> Artista { get; private set; }
+    public Artista Artista { get; private set; }
     public string Genero { get; private set; }
     public Productor Productor { get; private set; }
     public List<Tema> Temas { get; private set; }
     public string Foto { get; private set; }
-    public Disco(int id, string nombre, List<Artista> artista, Productor productor, List<Tema> temas, string genero, string foto)
+    public Disco(int id, string nombre, Artista artista, Productor productor, List<Tema> temas, string genero, string foto)
     {
         ID = id;
         Nombre = nombre;

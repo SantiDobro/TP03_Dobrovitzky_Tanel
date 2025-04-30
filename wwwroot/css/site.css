@@ -26,3 +26,10 @@ footer {
 section div{
   float: left;
 }
+section div a input
+{
+  background-color: rgba(0, 255, 255, 0.137);
+  font-size: 15px;
+  height: 60px;
+  border-color: rgba(0, 0, 255, 0.237);
+}
