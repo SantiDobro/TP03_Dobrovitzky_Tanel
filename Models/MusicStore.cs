@@ -62,6 +62,21 @@ public class MusicStore
         new("Estamos Bien"), new("Qué Malo"), new("Puesto Pa' Guerrillar"), new("Soltera Remix"),
         new("Te Mudaste"), new("Hablamos Mañana")}, "Reguetón, Trap, Latin Hip-Hop", "YHLQMDLG.jpg"));
 
+        // Disco 9
+        discos.Add(new Disco(8, "Mañana Será Bonito",
+    new Artista("Karol G"), new Productor("Universal Music Latino"), new List<Tema>{
+new("Mientras Me Curo del Cora"), new("X Si Volvemos"), new("Pero Tú"), new("Besties"),
+new("Gucci Los Paños"), new("TQG"), new("Kármika"), new("Provenza"),
+new("Tus Gafitas"), new("Carolina"), new("Amargura"), new("Mercurio")}, "Reguetón, Pop Latino", "MananaSeraBonito.jpg"));
+
+        // Disco 10
+        discos.Add(new Disco(9, "Feliz Cumpleaños Ferxxo Te Pirateamos el Álbum",
+    new Artista("Feid"), new Productor("Universal Music Latino"), new List<Tema>{
+new("Le Pido a Dios"), new("Ferxxo 100"), new("XQ Te Pones Así"), new("Prohibidox"),
+new("Belixe"), new("Feliz Cumpleaños Ferxxo"), new("Normal"), new("Si Te La Encuentras Por Ahí"),
+new("Castigo"), new("Vacaxiones"), new("Quemando Calorías"), new("Paris"), new("De Tanto Chimbiar")}, 
+"Reguetón, Trap", "FelizCumpleanosFerxxo.jpg"));
+
         return discos;
     }
     public static Disco SelectDisco(int id)

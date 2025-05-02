@@ -1,12 +1,17 @@
 html {
   font-size: 14px;
   min-height: 100%;
+  background-color: rgba(0, 255, 255, 0.137);
 }
 
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
+}
+
+h1, h3, p{
+  text-align: center;
 }
 
 body {
@@ -23,8 +28,24 @@ footer {
   clear: both;
 }
 
+section{
+  margin-left: 14.7%;
+}
+
+li{
+  padding: 0.5%;
+  border: 1px solid rgba(0, 255, 255, 0.137);
+  background-color: white;
+}
+
 section div{
   float: left;
+  border: 1px;
+  border-radius: 5%;
+  margin-right: 1%; margin-bottom: 1%;
+  max-width: 300px;
+  background-color: white;
+  text-align: center;
 }
 section div a input
 {
@@ -33,4 +54,7 @@ section div a input
   font-size: 15px;
   height: 60px;
   border-color: rgba(0, 0, 255, 0.237);
+}
+.imagen-disco{
+  margin-left: 38.6%;
 }

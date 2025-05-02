@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5ceo96ssyzpm8ZEeReooZlfRx6Lm/+iROWENFM1q1mg=",
+  "Hash": "+6fUCAhZEzBFm3Dp7FRK5DM+dJ0TTF9lgNtWaAQp+JQ=",
   "Source": "TP03_Dobrovitzky_Tanel",
   "BasePath": "_content/TP03_Dobrovitzky_Tanel",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TP03_Dobrovitzky_Tanel\\wwwroot",
       "Source": "TP03_Dobrovitzky_Tanel",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\css\\site.css",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\favicon.ico",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Afrodisiaco.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Afrodisiaco.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/Afrodisiaco.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Afrodisiaco.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Colores.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Colores.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/Colores.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Colores.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\DtMF.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\DtMF.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/DtMF.jpg",
       "AssetKind": "All",
@@ -112,10 +112,29 @@
       "OriginalItemSpec": "wwwroot\\img\\DtMF.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Fenix.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\FelizCumpleanosFerxxo.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "BasePath": "_content/TP03_Dobrovitzky_Tanel",
+      "RelativePath": "img/FelizCumpleanosFerxxo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\FelizCumpleanosFerxxo.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Fenix.jpg",
+      "SourceId": "TP03_Dobrovitzky_Tanel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/Fenix.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Fenix.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\KG0516.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\KG0516.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/KG0516.jpg",
       "AssetKind": "All",
@@ -150,10 +169,29 @@
       "OriginalItemSpec": "wwwroot\\img\\KG0516.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Nibiru.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\MananaSeraBonito.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "BasePath": "_content/TP03_Dobrovitzky_Tanel",
+      "RelativePath": "img/MananaSeraBonito.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\MananaSeraBonito.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\Nibiru.jpg",
+      "SourceId": "TP03_Dobrovitzky_Tanel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/Nibiru.jpg",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Nibiru.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\RealHastaLaMuerte.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\RealHastaLaMuerte.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/RealHastaLaMuerte.jpg",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\RealHastaLaMuerte.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\YHLQMDLG.jpg",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\img\\YHLQMDLG.jpg",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "img/YHLQMDLG.jpg",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\YHLQMDLG.jpg"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\js\\site.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -321,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -378,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP03_Dobrovitzky_Tanel",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\usuario\\Downloads\\TP03_Dobrovitzky_Tanel\\wwwroot\\",
       "BasePath": "_content/TP03_Dobrovitzky_Tanel",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
